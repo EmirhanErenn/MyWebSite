@@ -1,0 +1,46 @@
+/* Google Fonts kullanımı */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #000080; /* Mavi renk */
+}
+
+/* Logo as text */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.logo-part1 {
+    color: white; /* Software kısmı beyaz */
+}
+
+.logo-part2 {
+    color: #00BFFF; /* Tech kısmı mavi */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Sarı hover efekti */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+    }
+}
